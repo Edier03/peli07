@@ -1,0 +1,126 @@
+.animacion{
+    padding: 25px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+    text-align: center;
+}
+.animacion:hover{
+    background: #000;
+    color: #fff;
+    transform: scale(1.1);
+    padding: 20px;
+}
+header{
+    background: black;
+    padding: 2rem;
+}
+body{
+    background: #fdf4e1;
+}
+section{
+    background: black;
+    padding: 2rem;
+}
+/*.logo{
+    display: inline-block;
+}*/
+/*botones*/
+.boton{
+    padding: 20px;
+    background: #fff;
+    color: #000;
+    border-radius: 20px;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.boton:hover{
+    background: #000;
+   color: #fff;
+   padding: 15px;
+}
+.logo{
+    display: inline-block;
+}
+/*desègable*/
+
+nav a{
+      text-decoration:none;
+      color:inherit;
+      font-size:14px;
+      }
+            
+nav li{
+      display:inline-block;
+      width:150px;
+      height:30px;
+      padding:5px 10px;
+      background-color:#000;
+      border:1px solid #000;
+      text-align:center;
+      color:#fff;
+      position:relative;
+      transition: 1s;
+}
+            
+nav li:hover{
+      background-color:#fff;
+      color:#000;
+      }
+            
+nav li>ul{
+      display:none;
+      transition: 2s
+      }
+
+nav li:hover>ul{
+      display:block;
+      position:absolute;
+      top:30px;
+      left:0px;
+}
+
+
+.shows{
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    border:1px solid white;
+    border-radius: 10px;
+}
+
+footer{
+    padding: 2em;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+
+/*img{
+    height: 300px;
+}*/
+img.zoom {
+    /*width: 200px;
+    height: 250px;*/
+    border-radius: 10px;
+    border: 1px  solid  white;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.8);
+    -o-transform: scale(1.8);
+    transform: scale(.9);
+}
